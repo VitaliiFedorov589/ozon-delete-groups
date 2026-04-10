@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh --version)",
+      "Bash(git --version)",
+      "Bash(gh auth:*)",
+      "Bash(winget --version)",
+      "Bash(curl --version)",
+      "Bash(winget install:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" --version)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Read(///lan.sct.ru/x/Воронеж/Подразделения/Коммерческий/В.Федоров/Личная/**)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" repo create ozon-delete-groups --public --description \"Скрипт для массового удаления групп товаров в ЛК Ozon Seller\" --source=. --remote=origin --push)"
+    ]
+  }
+}
